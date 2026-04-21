@@ -2,10 +2,11 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Mein Profil</title>
+  <title>Meine Seite</title>
   <style>
     body {
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
@@ -14,6 +15,13 @@
       background: #111;
       color: white;
     }
+
+    img {
+      width: 200px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+    }
+
     a {
       padding: 20px 40px;
       background: #E1306C;
@@ -22,11 +30,19 @@
       font-size: 20px;
       border-radius: 10px;
     }
+
+    a:hover {
+      opacity: 0.8;
+    }
   </style>
 </head>
 <body>
+
+  <img src="R2_logo.jpg" alt="Logo">
+
   <a href="https://instagram.com/_roundzwo" target="_blank">
     Zu meinem Instagram
   </a>
+
 </body>
 </html>
